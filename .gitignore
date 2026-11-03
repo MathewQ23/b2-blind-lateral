@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+runs/
+*.log
+*.tmp
+*.npz
+*.mp4
+*.pkl
+!weights/policy.pkl
+.DS_Store

@@ -1,0 +1,54 @@
+{
+  "selection": "best_training.pkl",
+  "selection_basis": "Higher total accepted ascent episodes across two matched seeds: 30/40 vs 28/40. Small difference; not a claim of statistically established superiority.",
+  "evaluations": [
+    {
+      "candidate": "final.pkl",
+      "sha256": "8a54918ebf3f9fcac4bfbbabb5218825b165b617ed2e657c74e6d5248b78bc3b",
+      "seed": 1040031,
+      "height_m": 0.22,
+      "payload_kg": 20.0,
+      "episodes_per_task": 20,
+      "accepted_rates": {
+        "ascent": 0.65,
+        "stand": 1.0
+      }
+    },
+    {
+      "candidate": "final.pkl",
+      "sha256": "8a54918ebf3f9fcac4bfbbabb5218825b165b617ed2e657c74e6d5248b78bc3b",
+      "seed": 1041031,
+      "height_m": 0.22,
+      "payload_kg": 20.0,
+      "episodes_per_task": 20,
+      "accepted_rates": {
+        "ascent": 0.75,
+        "stand": 1.0
+      }
+    },
+    {
+      "candidate": "best_training.pkl",
+      "sha256": "a3823e873c1190491234072fd7e3a9a49e1e2f650688d6212c35830b96bcfd94",
+      "seed": 1040031,
+      "height_m": 0.22,
+      "payload_kg": 20.0,
+      "episodes_per_task": 20,
+      "accepted_rates": {
+        "ascent": 0.75,
+        "stand": 1.0
+      }
+    },
+    {
+      "candidate": "best_training.pkl",
+      "sha256": "a3823e873c1190491234072fd7e3a9a49e1e2f650688d6212c35830b96bcfd94",
+      "seed": 1041031,
+      "height_m": 0.22,
+      "payload_kg": 20.0,
+      "episodes_per_task": 20,
+      "accepted_rates": {
+        "ascent": 0.75,
+        "stand": 1.0
+      }
+    }
+  ]
+}

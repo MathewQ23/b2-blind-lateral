@@ -1,0 +1,28 @@
+{
+  "robot": "Unitree B2 official MJCF, unchanged link inertias",
+  "target_payload_kg": 30.0,
+  "path_width_m": 2.5,
+  "path_width_basis": "User requested 2-3 m on 2026-10-28; midpoint 2.5 m selected for stairs and all platforms.",
+  "confirmed_water_kg": 26.4,
+  "provisional_bottles_and_packaging_kg": 0.6,
+  "provisional_rack_and_straps_kg": 3.0,
+  "case_dimensions_m": [0.36, 0.26, 0.24],
+  "case_centers_body_m": [[0.0, -0.14, 0.245], [0.0, 0.14, 0.245]],
+  "rack_dimensions_m": [0.42, 0.56, 0.025],
+  "rack_center_body_m": [0.0, 0.0, 0.1125],
+  "geometry_status": "Engineering placeholders, not measured box/rack dimensions; replace after measurement.",
+  "payload_model": "Rigid fixed bodies; no liquid slosh, strap compliance, or thermal/battery derating model.",
+  "joint_pd_kp": 600.0,
+  "joint_pd_kd": 15.0,
+  "pd_status": "Simulation control gains; not manufacturer-certified settings.",
+  "stages": [
+    [0.02, 0.0], [0.04, 0.0], [0.06, 0.0],
+    [0.06, 5.0], [0.08, 5.0], [0.10, 5.0],
+    [0.10, 10.0], [0.12, 10.0], [0.14, 10.0],
+    [0.14, 15.0], [0.16, 15.0], [0.18, 15.0],
+    [0.18, 20.0], [0.20, 20.0], [0.22, 20.0],
+    [0.22, 25.0], [0.22, 30.0]
+  ],
+  "stage_columns": ["nominal_riser_m", "total_payload_including_rack_kg"],
+  "final_task": "24 up + 24 down; 22 cm risers, 24 cm treads, 30 kg fixed back payload; one shared policy"
+}
